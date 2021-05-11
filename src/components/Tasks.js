@@ -1,27 +1,6 @@
 import React from 'react'
-import { useState } from 'react'
 
-const Tasks = () => {
-    const [tasks, setTasks] = useState([
-        {
-            id:1,
-            text: 'doctors appointment',
-            day: 'Feb 5',
-            reminder: true,
-        },
-        {
-            id:2,
-            text: 'police appointment',
-            day: 'Feb 6',
-            reminder: true,
-        },
-        {
-            id:3,
-            text: 'parlour appointment',
-            day: 'Feb 8',
-            reminder: false,
-        }
-    ])
+const Tasks = ({tasks}) => { 
     return (
         <>
             {tasks.map((task)=>(
