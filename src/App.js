@@ -23,7 +23,7 @@ const App =()=> {
         text: 'Parlour Appointment',
         day: 'Feb 8',
         reminder: false,
-    }
+    },
 ])
 
 
